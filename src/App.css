@@ -10,24 +10,26 @@
 .nav{
   display: flex;
   justify-content: center;
+  margin-top: 10px;
 }
 
 .nav button{
-  border: none;
-  border-radius: 3px;
   width: 150px;
   height: 50px;
+  border: none;
   margin-right: 10px;
-  background-color: rgb(204, 203, 203);
+  color: white;
+  /* background-color: rgb(204, 203, 203); */
+  background-color: rgb(148, 147, 147);
   border-bottom: 3px solid black;
   font-size: 20px;
+  transition: border-bottom 0.1s ease-in-out 0.05s;
+}
+
+.nav button:hover{
+  border-bottom: 5px solid black;
 }
 
 .taskList{
   margin-top: 25px;
-}
-
-.btn-link{
-  text-decoration: none;
-  color: white;
 }
