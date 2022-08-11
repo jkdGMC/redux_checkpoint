@@ -19,7 +19,6 @@
   border: none;
   margin-right: 10px;
   color: white;
-  /* background-color: rgb(204, 203, 203); */
   background-color: rgb(148, 147, 147);
   border-bottom: 3px solid black;
   font-size: 20px;
@@ -29,6 +28,11 @@
 .nav button:hover{
   border-bottom: 5px solid black;
 }
+
+button{
+  cursor: pointer;
+}
+
 
 .taskList{
   margin-top: 25px;
