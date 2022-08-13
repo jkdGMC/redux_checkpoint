@@ -1,14 +1,10 @@
 import './App.css';
 import { ListTask } from './Components/ListTask/ListTask';
-import {  useLocation, useNavigate } from 'react-router-dom'
 import { useState } from 'react';
 import AddTask from './Components/AddTask/AddTask'
 function App() {
 
-  const location = useLocation()
-  const navigate = useNavigate()
   const [click, setClick] = useState('')
-  console.log(click)
 
   return (
     <div className="App">
@@ -28,7 +24,7 @@ function App() {
           </div>
           :
           <div className='taskList'>
-            <AddTask />
+            <AddTask setClick={setClick}/>
           </div>
       }
 

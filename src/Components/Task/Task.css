@@ -2,13 +2,39 @@
     width: 100%;
     display: flex;
     border-bottom: 1px solid black;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
-/* .active{
-    color: green;
-} */
 i{
     cursor: pointer;
+    font-size: 22px;
+}
+
+.fa-pen-to-square{
+    margin-left: 30px;
+}
+
+.description{
+    margin-left: 20px;
+}
+
+.task_icon{
+    margin-right: 25px;
+}
+
+.input-edit{
+    width: 150px;
+    height: 20px;
+    margin-bottom: 5px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 2px;
+}
+
+.edit-btn{
+    border: none;
+    border-radius: 3px;
+    margin-left: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
